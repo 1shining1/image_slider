@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #17223fee;
+}
+
+#main {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%, 0% 0%);
+  background-color: rgb(114, 27, 32);
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+#slider {
+  width: 300%;
+  position: relative;
+  left: 0;
+}
+
+#slider img {
+  width: 33.33%;
+  float: left;
+}
+
+#nxtbtn,
+#prvbtn {
+  border: solid rgb(192, 189, 149) 10px;
+  position: fixed;
+  top: 85%;
+  left: 53%;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#prvbtn {
+  left: 47%;
+}
